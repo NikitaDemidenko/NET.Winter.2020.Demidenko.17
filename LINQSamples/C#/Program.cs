@@ -11,6 +11,7 @@ using SampleSupport;
 using SampleQueries;
 using System.IO;
 using DataSetSampleQueries;
+using QuerySamples;
 
 // See the ReadMe.html for additional information
 namespace SampleQueries
@@ -28,6 +29,8 @@ namespace SampleQueries
             // LinqSamples:
             LinqSamples linqHarness = new LinqSamples();
             harnesses.Add(linqHarness);
+            CustomSamples customSamples = new CustomSamples();
+            harnesses.Add(customSamples);
 
             // Linq To SQL Samples:
             LinqToSqlSamples linqToSqlHarness = new LinqToSqlSamples();
